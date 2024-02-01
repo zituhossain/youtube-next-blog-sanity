@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => {
-  return <div className="py-4 bg-primary-brand">Footer</div>;
+  return <div className="py-4 bg-footer-bg">Footer</div>;
 };
 
 export default Footer;

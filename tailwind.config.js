@@ -13,6 +13,8 @@ module.exports = {
         "primary-bg": "#F0F0F0",
         "light-accent": "#83A3A9",
         "dark-accent": "#877068",
+        "footer-bg": "#373941",
+        "heading-color": "#4ca5cd",
       },
     },
   },

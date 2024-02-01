@@ -1,9 +1,9 @@
-import { getPosts } from "@/lib/client";
+// import { getPosts } from "@/lib/client";
 import Image from "next/image";
 import { PortableText } from "@portabletext/react";
 
 const SingleBlogPage = async ({ params }) => {
-  const posts = await getPosts();
+  // const posts = await getPosts();
   const postID = params.id[0];
 
   const singlePost = posts.find((post) => post._id === postID);

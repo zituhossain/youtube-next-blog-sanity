@@ -1,8 +1,8 @@
 import BlogCard from "./BlogCard";
-import { getPosts } from "@/lib/client";
+// import { getPosts } from "@/lib/client";
 
 const BlogSection = async () => {
-  const posts = await getPosts();
+  // const posts = await getPosts();
   return (
     <div className="flex flex-col lg:px-24 px-4">
       <div className="flex justify-center my-4">
